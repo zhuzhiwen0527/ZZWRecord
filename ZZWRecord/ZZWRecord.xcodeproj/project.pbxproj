@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED035E511F3D914600471274 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED035E501F3D914600471274 /* main.m */; };
+		ED035E541F3D914600471274 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED035E531F3D914600471274 /* AppDelegate.m */; };
+		ED035E571F3D914600471274 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED035E561F3D914600471274 /* ViewController.m */; };
+		ED035E5A1F3D914600471274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED035E581F3D914600471274 /* Main.storyboard */; };
+		ED035E5C1F3D914600471274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED035E5B1F3D914600471274 /* Assets.xcassets */; };
+		ED035E5F1F3D914600471274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED035E5D1F3D914600471274 /* LaunchScreen.storyboard */; };
+		ED035E6A1F3D914600471274 /* ZZWRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED035E691F3D914600471274 /* ZZWRecordTests.m */; };
+		ED035E751F3D914600471274 /* ZZWRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED035E741F3D914600471274 /* ZZWRecordUITests.m */; };
+		ED035E851F3D927700471274 /* ZZWScressRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = ED035E841F3D927700471274 /* ZZWScressRecorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED035E661F3D914600471274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED035E441F3D914600471274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED035E4B1F3D914600471274;
+			remoteInfo = ZZWRecord;
+		};
+		ED035E711F3D914600471274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED035E441F3D914600471274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED035E4B1F3D914600471274;
+			remoteInfo = ZZWRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED035E4C1F3D914600471274 /* ZZWRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZWRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED035E501F3D914600471274 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED035E521F3D914600471274 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED035E531F3D914600471274 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED035E551F3D914600471274 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED035E561F3D914600471274 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED035E591F3D914600471274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED035E5B1F3D914600471274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED035E5E1F3D914600471274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED035E601F3D914600471274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED035E651F3D914600471274 /* ZZWRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZWRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED035E691F3D914600471274 /* ZZWRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZWRecordTests.m; sourceTree = "<group>"; };
+		ED035E6B1F3D914600471274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED035E701F3D914600471274 /* ZZWRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZWRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED035E741F3D914600471274 /* ZZWRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZWRecordUITests.m; sourceTree = "<group>"; };
+		ED035E761F3D914600471274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED035E831F3D927700471274 /* ZZWScressRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZWScressRecorder.h; sourceTree = "<group>"; };
+		ED035E841F3D927700471274 /* ZZWScressRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZWScressRecorder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED035E491F3D914600471274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED035E621F3D914600471274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED035E6D1F3D914600471274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED035E431F3D914600471274 = {
+			isa = PBXGroup;
+			children = (
+				ED035E4E1F3D914600471274 /* ZZWRecord */,
+				ED035E681F3D914600471274 /* ZZWRecordTests */,
+				ED035E731F3D914600471274 /* ZZWRecordUITests */,
+				ED035E4D1F3D914600471274 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED035E4D1F3D914600471274 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED035E4C1F3D914600471274 /* ZZWRecord.app */,
+				ED035E651F3D914600471274 /* ZZWRecordTests.xctest */,
+				ED035E701F3D914600471274 /* ZZWRecordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED035E4E1F3D914600471274 /* ZZWRecord */ = {
+			isa = PBXGroup;
+			children = (
+				ED035E821F3D922100471274 /* record */,
+				ED035E521F3D914600471274 /* AppDelegate.h */,
+				ED035E531F3D914600471274 /* AppDelegate.m */,
+				ED035E551F3D914600471274 /* ViewController.h */,
+				ED035E561F3D914600471274 /* ViewController.m */,
+				ED035E581F3D914600471274 /* Main.storyboard */,
+				ED035E5B1F3D914600471274 /* Assets.xcassets */,
+				ED035E5D1F3D914600471274 /* LaunchScreen.storyboard */,
+				ED035E601F3D914600471274 /* Info.plist */,
+				ED035E4F1F3D914600471274 /* Supporting Files */,
+			);
+			path = ZZWRecord;
+			sourceTree = "<group>";
+		};
+		ED035E4F1F3D914600471274 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED035E501F3D914600471274 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED035E681F3D914600471274 /* ZZWRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED035E691F3D914600471274 /* ZZWRecordTests.m */,
+				ED035E6B1F3D914600471274 /* Info.plist */,
+			);
+			path = ZZWRecordTests;
+			sourceTree = "<group>";
+		};
+		ED035E731F3D914600471274 /* ZZWRecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED035E741F3D914600471274 /* ZZWRecordUITests.m */,
+				ED035E761F3D914600471274 /* Info.plist */,
+			);
+			path = ZZWRecordUITests;
+			sourceTree = "<group>";
+		};
+		ED035E821F3D922100471274 /* record */ = {
+			isa = PBXGroup;
+			children = (
+				ED035E831F3D927700471274 /* ZZWScressRecorder.h */,
+				ED035E841F3D927700471274 /* ZZWScressRecorder.m */,
+			);
+			path = record;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED035E4B1F3D914600471274 /* ZZWRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED035E791F3D914600471274 /* Build configuration list for PBXNativeTarget "ZZWRecord" */;
+			buildPhases = (
+				ED035E481F3D914600471274 /* Sources */,
+				ED035E491F3D914600471274 /* Frameworks */,
+				ED035E4A1F3D914600471274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZWRecord;
+			productName = ZZWRecord;
+			productReference = ED035E4C1F3D914600471274 /* ZZWRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED035E641F3D914600471274 /* ZZWRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED035E7C1F3D914600471274 /* Build configuration list for PBXNativeTarget "ZZWRecordTests" */;
+			buildPhases = (
+				ED035E611F3D914600471274 /* Sources */,
+				ED035E621F3D914600471274 /* Frameworks */,
+				ED035E631F3D914600471274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED035E671F3D914600471274 /* PBXTargetDependency */,
+			);
+			name = ZZWRecordTests;
+			productName = ZZWRecordTests;
+			productReference = ED035E651F3D914600471274 /* ZZWRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED035E6F1F3D914600471274 /* ZZWRecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED035E7F1F3D914600471274 /* Build configuration list for PBXNativeTarget "ZZWRecordUITests" */;
+			buildPhases = (
+				ED035E6C1F3D914600471274 /* Sources */,
+				ED035E6D1F3D914600471274 /* Frameworks */,
+				ED035E6E1F3D914600471274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED035E721F3D914600471274 /* PBXTargetDependency */,
+			);
+			name = ZZWRecordUITests;
+			productName = ZZWRecordUITests;
+			productReference = ED035E701F3D914600471274 /* ZZWRecordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED035E441F3D914600471274 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zzw;
+				TargetAttributes = {
+					ED035E4B1F3D914600471274 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DDTJ7E6G8C;
+						ProvisioningStyle = Automatic;
+					};
+					ED035E641F3D914600471274 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED035E4B1F3D914600471274;
+					};
+					ED035E6F1F3D914600471274 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED035E4B1F3D914600471274;
+					};
+				};
+			};
+			buildConfigurationList = ED035E471F3D914600471274 /* Build configuration list for PBXProject "ZZWRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED035E431F3D914600471274;
+			productRefGroup = ED035E4D1F3D914600471274 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED035E4B1F3D914600471274 /* ZZWRecord */,
+				ED035E641F3D914600471274 /* ZZWRecordTests */,
+				ED035E6F1F3D914600471274 /* ZZWRecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED035E4A1F3D914600471274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED035E5F1F3D914600471274 /* LaunchScreen.storyboard in Resources */,
+				ED035E5C1F3D914600471274 /* Assets.xcassets in Resources */,
+				ED035E5A1F3D914600471274 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED035E631F3D914600471274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED035E6E1F3D914600471274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED035E481F3D914600471274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED035E571F3D914600471274 /* ViewController.m in Sources */,
+				ED035E541F3D914600471274 /* AppDelegate.m in Sources */,
+				ED035E851F3D927700471274 /* ZZWScressRecorder.m in Sources */,
+				ED035E511F3D914600471274 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED035E611F3D914600471274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED035E6A1F3D914600471274 /* ZZWRecordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED035E6C1F3D914600471274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED035E751F3D914600471274 /* ZZWRecordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED035E671F3D914600471274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED035E4B1F3D914600471274 /* ZZWRecord */;
+			targetProxy = ED035E661F3D914600471274 /* PBXContainerItemProxy */;
+		};
+		ED035E721F3D914600471274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED035E4B1F3D914600471274 /* ZZWRecord */;
+			targetProxy = ED035E711F3D914600471274 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED035E581F3D914600471274 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED035E591F3D914600471274 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED035E5D1F3D914600471274 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED035E5E1F3D914600471274 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED035E771F3D914600471274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED035E781F3D914600471274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED035E7A1F3D914600471274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DDTJ7E6G8C;
+				INFOPLIST_FILE = ZZWRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZWRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED035E7B1F3D914600471274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DDTJ7E6G8C;
+				INFOPLIST_FILE = ZZWRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZWRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED035E7D1F3D914600471274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZWRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZWRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZWRecord.app/ZZWRecord";
+			};
+			name = Debug;
+		};
+		ED035E7E1F3D914600471274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZWRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZWRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZWRecord.app/ZZWRecord";
+			};
+			name = Release;
+		};
+		ED035E801F3D914600471274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZWRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZWRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZWRecord;
+			};
+			name = Debug;
+		};
+		ED035E811F3D914600471274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZWRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZWRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZWRecord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED035E471F3D914600471274 /* Build configuration list for PBXProject "ZZWRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED035E771F3D914600471274 /* Debug */,
+				ED035E781F3D914600471274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED035E791F3D914600471274 /* Build configuration list for PBXNativeTarget "ZZWRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED035E7A1F3D914600471274 /* Debug */,
+				ED035E7B1F3D914600471274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED035E7C1F3D914600471274 /* Build configuration list for PBXNativeTarget "ZZWRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED035E7D1F3D914600471274 /* Debug */,
+				ED035E7E1F3D914600471274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED035E7F1F3D914600471274 /* Build configuration list for PBXNativeTarget "ZZWRecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED035E801F3D914600471274 /* Debug */,
+				ED035E811F3D914600471274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED035E441F3D914600471274 /* Project object */;
+}
